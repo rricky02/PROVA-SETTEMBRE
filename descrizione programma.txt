@@ -1,0 +1,13 @@
+1. numero thread: 9 (7 prof, 1 main, 1 visualizza)
+   numero classi: 3 (main, cerca, visualizza)
+
+2. cerca: cerca nell'orario la classe scritta in linea di comando tramite il main
+   main: è il main del programma, gestisce l'input dell'utente
+   visualizza: visualizza i risultati della ricerca
+
+3. dati condivisi: vettori con l'orario predefinito, vettore con risultati, semaforo per gestire sincronizzazione
+
+4. M.E. non presente
+
+5. sincronizzazione presente tra i 7 threads cerca e il thread visualizza.
+   Presente anche tra il main e i tutti gli altri thread (il main parte per primo)
